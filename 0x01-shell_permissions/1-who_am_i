@@ -1,2 +1,2 @@
-#!/bin/bash
-id --user
+!/bin/bash
+id -u -n
