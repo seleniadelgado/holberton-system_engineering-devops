@@ -1,0 +1,2 @@
+#!/bin/bash
+find vagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops/0x02-shell_redirections$ -type f -name '*.js' -exec rm {} \;

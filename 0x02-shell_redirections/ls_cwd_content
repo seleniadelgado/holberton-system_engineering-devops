@@ -1,0 +1,29 @@
+total 92
+drwxrwxr-x 2 vagrant vagrant 4096 Sep  9 02:03 .
+drwxrwxr-x 6 vagrant vagrant 4096 Sep  8 20:46 ..
+-rwxrw-r-- 1 vagrant vagrant   32 Sep  8 22:07 0-hello_world
+-rw-rw-r-- 1 vagrant vagrant   27 Sep  8 21:07 0-hello_world~
+-rwxrw-r-- 1 vagrant vagrant   25 Sep  8 22:17 1-confused_smiley
+-rwxrw-r-- 1 vagrant vagrant   23 Sep  8 22:17 1-confused_smiley~
+-rwxrw-r-- 1 vagrant vagrant   28 Sep  8 22:49 2-hellofile
+-rwxrw-r-- 1 vagrant vagrant   28 Sep  8 22:33 2-hellofile~
+-rwxrw-r-- 1 vagrant vagrant   38 Sep  8 22:54 3-twofiles
+-rwxrw-r-- 1 vagrant vagrant   38 Sep  8 23:11 4-lastlines
+-rwxrw-r-- 1 vagrant vagrant   37 Sep  8 23:08 4-lastlines~
+-rwxrw-r-- 1 vagrant vagrant   38 Sep  8 23:14 5-firstlines
+-rwxrw-r-- 1 vagrant vagrant   38 Sep  8 23:12 5-firstlines~
+-rwxrw-r-- 1 vagrant vagrant   36 Sep  8 23:41 6-third_line
+-rwxrw-r-- 1 vagrant vagrant   36 Sep  8 23:38 6-third_line~
+-rwxrw-r-- 1 vagrant vagrant   94 Sep  9 01:49 7-file
+-rwxrw-r-- 1 vagrant vagrant   95 Sep  9 01:47 7-file~
+-rwxrw-r-- 1 vagrant vagrant   36 Sep  9 02:03 8-cwd_state
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  8 21:33 hello
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  8 21:50 Hello, World
+-rw-rw-r-- 1 vagrant vagrant   17 Sep  9 01:49 \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+-rw-rw-r-- 1 vagrant vagrant  934 Sep  8 23:42 iacta
+-rw-rw-r-- 1 vagrant vagrant  950 Sep  8 23:40 iacta~
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  9 02:05 ls_cwd_content
+-rw-rw-r-- 1 vagrant vagrant   35 Sep  8 21:19 README.md
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  8 21:18 README.md~
+-rw-rw-r-- 1 vagrant vagrant   57 Sep  9 00:19 touch
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  8 21:33 world
