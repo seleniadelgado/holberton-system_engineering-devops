@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --exclude bin /etc/passwd | ls 
+grep --exclude bin /etc/passwd | ls l
