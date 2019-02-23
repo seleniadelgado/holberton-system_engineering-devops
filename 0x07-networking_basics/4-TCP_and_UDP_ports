@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
-#print all ports
-netstat -l -p
+#/usr/bin/env bash
+#prints ports
+netstat -p -l
