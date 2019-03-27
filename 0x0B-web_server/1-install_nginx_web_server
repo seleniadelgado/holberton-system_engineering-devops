@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#configure new Ubuntu machine to respect new reqs
+sudo apt-get update
+sudo apt-get -y install nginx
+echo Holberton School | sudo tee index.html
+sudo service nginx start
