@@ -2,5 +2,5 @@
 #configure new Ubuntu machine to respect new reqs
 sudo apt-get update
 sudo apt-get -y install nginx
-echo Holberton School | sudo tee usr/share/nginx/html/index.html
+echo Holberton School | sudo tee /usr/share/nginx/html/index.html
 sudo service nginx start
