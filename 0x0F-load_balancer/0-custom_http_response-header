@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that adds a HTTP header to a server
+sed -i '24i\               add_header X-Served-By: 534-web-02' /etc/nginx/sites-available/default;
