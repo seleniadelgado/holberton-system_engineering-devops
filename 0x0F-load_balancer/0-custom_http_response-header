@@ -2,5 +2,7 @@
 #script that adds a HTTP header to a server
 sudo apt-get update
 sudo apt-get -y install nginx
-sed -i '24i\               add_header X-Served-By: 534-web-02' /etc/nginx/sites-available/default;
-service nginx restart
+echo Holberton School | sudo tee /usr/share/nginx/html/index.html
+sed -i "29i 	location /redirect_me {\nreturn 301 https://www.nationalgeographic.com;\n}" /etc/nginx/sites-available/default
+sudo sed -i "24i\	add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default;
+sudo service nginx restart
