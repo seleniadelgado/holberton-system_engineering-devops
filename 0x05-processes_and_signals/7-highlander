@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Bash script that displays quote
+a=1
+while [ $a -eq 1 ]
+do
+    echo "To infinity and beyond"
+    sleep 2
+    trap 'echo "I am invincible!!!"' SIGTERM
+done

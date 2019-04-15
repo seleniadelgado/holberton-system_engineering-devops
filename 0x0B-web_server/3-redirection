@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#redirect
+sudo apt-get update
+sudo apt-get -y install nginx
+echo Holberton School | sudo tee /usr/share/nginx/html/index.html
+sed -i "29i location /redirect_me {\nreturn 301 https://www.nationalgeographic.com;\n}" /etc/nginx/sites-enabled/default
+sudo service nginx start
