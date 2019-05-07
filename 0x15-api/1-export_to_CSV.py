@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """using REST API that returns status of a to do list"""
-import requests
 from sys import argv
 import csv
-
+import requests
 if __name__ == "__main__":
 
     USER_ID = argv[1]
