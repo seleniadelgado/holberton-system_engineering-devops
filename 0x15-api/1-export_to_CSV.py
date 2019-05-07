@@ -26,4 +26,7 @@ if __name__ == "__main__":
     with open(csv_file, "w") as f:
         # 'w' to write string to a file.
         f = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-        f.writerow([USER_ID, USERNAME, TASK_COMPLETED_STATUS, TASK_TITLE])
+        for task in todo_list:
+            TASK_COMPLETED_STATUS = task.get('completed')
+            TASK_TITLE = task.get('title')
+            f.writerow([USER_ID, USERNAME, TASK_COMPLETED_STATUS, TASK_TITLE])
