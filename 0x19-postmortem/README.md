@@ -28,8 +28,7 @@ The issue is that our NGINX was not listening to port 80. When we tried to curl 
 
 __Corrective and preventative measures:__
 
-Things that we can improve is testing things before commiting to certain changes.
-curling the ports as we make changes to make sure all things are working appropriately.
+Things that we can improve is testing things before commiting to certain changes as well as curling the ports as we make changes to make sure all things are working appropriately.
 
 
 
