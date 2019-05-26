@@ -1,9 +1,11 @@
-#Postmortem 
+# Postmortem 
 
-__Issue Summary__
+__Issue Summary:__
+
 The duration of the outage lasted from 12:00 PST to 4:00 PST. The impact affected all clients as the root cause of the problem is that the Nginx was listening on the incorrect port and we need to change it to the correct port. It was mapped to port 8080 and needed to be mapped to port 80.
 
-__Timeline__
+__Timeline:__
+
 12:00 PST - A loud scream from the back of the office revealed one of our worst fears - an error message showing that once we curled the port, the connection was refused. And as all bad things tend to happen, it happened right before lunch break. 
 
 12:30:00 PST - The issue lied in the Nginx installation in which it was listening to the incorrect port.
@@ -20,10 +22,12 @@ __Timeline__
 
 2:00:16 PST - We have found the port we were listening on to be 8080, we decided to change our listening port to 80 using sed command restarted nginx. This worked. Everyone is finally at ease. 
 
-__Root Cause and Resolution__
+__Root Cause and Resolution:__
+
 The issue is that our NGINX was not listening to port 80. When we tried to curl the page we received a fail to connect to port 80. As soon as we realized the problem we made a script to use for any future changes such as this that may need to be made in the future.
 
-Corrective and preventative measures:
+__Corrective and preventative measures:__
+
 Things that we can improve is testing things before commiting to certain changes.
 curling the ports as we make changes to make sure all things are working appropriately.
 
