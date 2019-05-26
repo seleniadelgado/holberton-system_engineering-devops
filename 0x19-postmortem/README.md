@@ -8,8 +8,6 @@ __Timeline:__
 
 12:00 PST - A loud scream from the back of the office revealed one of our worst fears - an error message showing that once we curled the port, the connection was refused. And as all bad things tend to happen, it happened right before lunch break. 
 
-12:30:00 PST - The issue lied in the Nginx installation in which it was listening to the incorrect port.
-
 12:30:00 PST - Though the clocks were ticking and tummies were rumbling the team decided to power through and find the correct port to listen on while Chris ran out to grab tacos. 
 
 1:30:45 PST - Full bellied and with a smile on our faces only a tall glass of Horchata and fish tacos could deliver, we made our way through the trenches to look for the issue. 
