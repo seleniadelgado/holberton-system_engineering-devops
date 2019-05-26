@@ -2,7 +2,7 @@
 
 __Issue Summary:__
 
-The duration of the outage lasted from 12:00 PST to 4:00 PST. The impact affected all clients as the root cause of the problem is that the Nginx was listening on the incorrect port and we need to change it to the correct port. It was mapped to port 8080 and needed to be mapped to port 80.
+The duration of the outage lasted from 12:00 PST to 2:00 PST. The impact affected all clients as the root cause of the problem is that the Nginx was listening on the incorrect port and we need to change it to the correct port. It was mapped to port 8080 and needed to be mapped to port 80.
 
 __Timeline:__
 
